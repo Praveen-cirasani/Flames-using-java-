@@ -10,9 +10,9 @@ public class Flames {
 		boolean b=false;
 		while(!b){
 			System.out.println("Enter your First Person Name: ");
-			String s1=sc.next();
+			String s1=sc.next().toLowercase();
 			System.out.println("Enter your second person Name:");
-			String s2=sc.next();
+			String s2=sc.next().toLowercase();
 			
 			String s=flames(s1,s2);
 			System.out.println("after flames you got: "+s);
